@@ -1,0 +1,11 @@
+{
+  "api_url": "http://localhost:8000",
+  "test_timeout": 30,
+  "providers": [
+    {
+      "id": "test_provider",
+      "name": "Test Provider",
+      "capabilities": ["text_generation", "embeddings"]
+    }
+  ]
+}
